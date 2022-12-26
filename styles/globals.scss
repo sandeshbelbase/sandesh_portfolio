@@ -1,0 +1,198 @@
+$primaryColor : #FFB330;
+    .container-fluid{
+        background-color: #f2f1f7 ;
+    }
+    .activeLink{
+        background-color: $primaryColor !important;
+    }
+.sidebar{
+    background-color: #fff;
+    height: 100vh;
+    .profile_wrap{
+        box-shadow: 3px 4px 26px 0px #00000005;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        img.pimage{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        h3{
+            font-size: 22px;
+            margin: 0px;
+        }
+        .social{
+            display: flex;
+            column-gap: 20px;
+            margin-top: 10px;
+            .ico{
+                padding: 5px;
+                background: $primaryColor;
+                border-radius: 50%;
+            }
+            img{
+                width: 25px;
+                height: 25px;
+                padding: 5px;
+            }
+        }
+    }
+.desc{
+    padding: 10px ;
+    border-top: 1px solid #EFE7E7;
+    border-bottom: 1px solid #EFE7E7;
+    margin:0px 10px;
+    p{
+        font-size: 15px;
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+        p.front{
+            padding: 0px 4px;
+            border-radius: 4px;
+            background-color: $primaryColor;
+        }
+    }
+}
+.menu{
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        a{
+            text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        }
+         li{
+            cursor: pointer;
+            margin: 12px;
+         box-shadow: 0px 2px 7px 0px #E0D0D040;
+            background-color: #f7ebeb;
+            padding: 10px;
+            list-style: none;
+            border-radius: 7px;
+            &:hover{
+               opacity: 0.8;
+            }          
+    }
+    }
+}
+
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: #fff;
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        margin: 20px 0px;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.portfolio{
+    .text{
+        display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+        }
+    }
+}
+
+.workWrap{
+    padding: 20px;
+    // display: flex;
+    .WorkCard{
+        a{
+            outline: none;
+        }
+    }
+    .slick-arrow{
+        &::before{
+            color: $primaryColor;
+        }
+    }
+   
+}
+
+form{
+    .formField{
+        width: 100%;
+        display: flex;
+        column-gap: 20px;
+        margin: 20px 0px;
+        .field{
+            width: 100%;
+        }
+    }
+    h4{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    input{
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #f7eded;
+    }
+    select{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #f7eded;
+    }
+    textarea{
+        padding-left: 6px;
+        border: 1px solid #f7eded;
+
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        button{
+            font-size: 14px;
+            font-weight: 600;
+            padding: 8px 18px;
+            letter-spacing: 1.5px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            background-color: $primaryColor;
+            &:hover{
+                background-color: #000;
+                color: #fff;
+                opacity: 0.8;
+            }
+        }
+    }
+    
+}
+
+.education{
+    margin: 10px 0px;
+    background-color: #eae9f1ab;
+    padding: 25px 25px 10px 25px;
+    .eduElement{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+}
