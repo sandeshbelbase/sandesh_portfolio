@@ -15,6 +15,7 @@ const WorkCard = () => {
   };
   return (
     <div className="workWrap">
+      
       <Slider {...settings}>
         <div>
           <div className="WorkCard">
@@ -28,10 +29,37 @@ const WorkCard = () => {
             </Link>
           </div>
         </div>
+
+         <div>
+          <div className="WorkCard">
+            <Link
+              href="https://appinnovate.netlify.app/"
+              target="_blank" 
+              rel="noreferrer"
+              replace
+            >
+              <img src="./appinnovate.png" alt="" height="auto" width="400px" />{" "}
+            </Link>
+          </div>
+        </div>
+
+         <div>
+          <div className="WorkCard">
+            <Link
+              href="https://boostupcleaningservices.au/"
+              target="_blank" 
+              rel="noreferrer"
+              replace
+            >
+              <img src="./boostup.png" alt="" height="auto" width="400px" />{" "}
+            </Link>
+          </div>
+        </div>
+        
         <div>
           <div className="WorkCard">
             <Link
-              href="https://www.nsu.org.np/"
+              href="https://hamrodrink.vercel.app/ "
               target="_blank"
               rel="noreferrer"
               replace
@@ -40,6 +68,20 @@ const WorkCard = () => {
             </Link>
           </div>
         </div>
+
+  <div>
+          <div className="WorkCard">
+            <Link
+              href="https://aspirey.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              replace
+            >
+              <img src="./aspirey.png" alt="" height="auto" width="400px" />{" "}
+            </Link>
+          </div>
+        </div>
+
         <div>
           <div className="WorkCard">
             <Link
@@ -58,7 +100,9 @@ const WorkCard = () => {
             </Link>
           </div>
         </div>
-        <div>
+      
+
+         <div>
           <div className="WorkCard">
             <Link
               href="https://aaiwa.netlify.app"

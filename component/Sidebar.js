@@ -19,8 +19,8 @@ const Sidebar = ({ route, setRoute }) => {
             width="100%"
           />
         </div>
-        <h3>Sandesh Belbase</h3>
-        <span>Web Developer</span>
+        <h3>Sandesh Belbase</h3>  
+        <span>IT Enthusiast</span>
         <div className="social">
           <div className="ico">
             <Link
@@ -56,11 +56,11 @@ const Sidebar = ({ route, setRoute }) => {
         </div>
         <div className="item">
           <p className="front">Current Address :</p>
-          <p>Baneshwor, KTM</p>
+          <p>Sydney NSW, Australia</p>
         </div>
         <div className="item">
-          <p className="front">Working At :</p>
-          <p>Darshan Infosys</p>
+          <p className="front">Work Status :</p>
+          <p>Open to work</p>
         </div>
         <div className="item">
           <p className="front">Freelance :</p>
