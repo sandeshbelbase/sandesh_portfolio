@@ -107,7 +107,7 @@ const WorkCard = () => {
             <Link
               href="https://aaiwa.netlify.app"
               target="_blank"
-              rel="noreferrer"
+              rel="no"
               replace
             >
               <img src="./aaiwa.png" alt="" height="auto" width="400px" />{" "}
